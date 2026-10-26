@@ -1,0 +1,64 @@
+# Unity-generated content and local editor preferences
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/MemoryCaptures/
+**/Recordings/
+**/Assets/Resources/PerformanceTestRunInfo.json*
+**/Assets/Resources/PerformanceTestRunSettings.json*
+**/.vs/
+**/.idea/
+**/.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Local credentials and agent tools
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+/.codex/
+/.agents/
+
+# Source and portable build entry point; distribute builds via Releases.
+/prototype/*
+!/prototype/PaperShop/
+!/prototype/Build-Foundation.ps1
+/prototype/PaperShop/*
+!/prototype/PaperShop/Assets/
+!/prototype/PaperShop/Packages/
+!/prototype/PaperShop/ProjectSettings/
+
+# Production history, raw references and intermediate portfolio renders.
+/archive/
+/research/
+/portfolio/
+/docs/*
+!/docs/portfolio-cover.jpg
+
+# These delivered cards are required by the source asset checks.
+/art/*
+!/art/characters/
+/art/characters/*
+!/art/characters/performance_v001/
+/art/characters/performance_v001/*
+!/art/characters/performance_v001/delivery/
+/art/characters/performance_v001/delivery/*
+!/art/characters/performance_v001/delivery/png/
+
+# Local publication staging and generated packages
+/publish/
+*.zip
+*.exe
+*_BurstDebugInformation_DoNotShip/

@@ -1,0 +1,19 @@
+* text=auto
+*.cs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ps1 text eol=crlf
+*.unity text eol=lf
+*.meta text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+*.fbx binary
+*.glb binary
+*.bytes binary
+*.ttf binary
+*.ttc binary
+*.otf binary

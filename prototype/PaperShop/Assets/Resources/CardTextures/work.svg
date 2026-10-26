@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="768" viewBox="0 0 512 768" role="img" aria-labelledby="title description">
+  <title id="title">Original paper shop clerk — work</title>
+  <desc id="description">Editable original pink-haired clerk placeholder. Transparent canvas. Thin white cut edge, no backdrop or shadow. Shared foot contact plane y=736; character center x=256.</desc>
+  <metadata>Original deterministic vector placeholder; 512x768; pivot=(256,736); pose=work; no reference photography or extracted game assets.</metadata>
+  <defs>
+    <filter id="paper-cut-edge" x="0" y="0" width="512" height="768" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="expanded"/>
+      <feFlood flood-color="#FFFFFF" result="paper"/>
+      <feComposite in="paper" in2="expanded" operator="in" result="edge"/>
+      <feMerge><feMergeNode in="edge"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="paper-character" filter="url(#paper-cut-edge)" stroke-linecap="round" stroke-linejoin="round">
+    <g id="hair-back" fill="#F2A0BA" stroke="#71475E" stroke-width="3">
+      <path d="M146 194C141 122 185 76 251 78C322 75 371 119 368 194L362 279C362 311 374 329 358 340C338 347 321 333 311 316L201 318C187 340 168 349 150 337C135 327 147 310 147 285Z"/>
+      <path d="M158 240C158 276 166 309 176 321M350 238C351 279 343 310 334 322" fill="none" stroke="#D97F9F" stroke-width="4"/>
+    </g>
+    <g id="legs" stroke="#71475E" stroke-width="3">
+      <path d="M205 544L244 546L241 683Q226 698 208 684Z" fill="#FFF1E8"/>
+      <path d="M269 546L308 544L303 684Q286 698 271 683Z" fill="#FFF1E8"/>
+      <path d="M207 638L242 640L241 694L208 694Z" fill="#FFFDF6"/>
+      <path d="M270 640L305 638L303 694L271 694Z" fill="#FFFDF6"/>
+      <path d="M209 645L240 646M272 646L303 645" fill="none" stroke="#C9DAD7" stroke-width="3"/>
+    </g>
+    <g id="shoes" fill="#936479" stroke="#71475E" stroke-width="2">
+      <path d="M208 688Q223 681 241 690L243 715Q243 728 231 732L190 732Q180 730 185 718L201 704Z"/>
+      <path d="M271 690Q289 681 303 688L310 704L326 718Q331 730 321 732L280 732Q268 728 269 715Z"/>
+      <path d="M188 724L240 724M272 724L323 724" fill="none" stroke="#EFD9CE" stroke-width="3"/>
+      <path d="M205 701Q220 694 239 701M273 701Q291 694 305 701" fill="none" stroke="#EFD9CE" stroke-width="4"/>
+    </g>
+    <g id="shirt-body" stroke="#71475E" stroke-width="3">
+      <path d="M223 297L222 323L195 334Q180 355 185 394L195 448L183 564Q224 582 256 575Q289 582 330 564L317 448L327 394Q333 355 315 334L289 323L288 297Z" fill="#FFF9EF"/>
+      <path d="M225 306L225 323Q253 342 286 323L286 305" fill="#FFE9DE"/>
+      <path d="M223 322L254 343L234 365L211 333Z" fill="#FFFFFF"/>
+      <path d="M288 322L258 343L278 365L300 333Z" fill="#FFFFFF"/>
+      <path d="M255 348L256 426" fill="none" stroke="#E1CFC8" stroke-width="2"/>
+      <circle cx="256" cy="376" r="3" fill="#D9B8B3" stroke="none"/>
+    </g>
+    <g id="work-arms" stroke="#71475E" stroke-width="3">
+      <path d="M197 335Q174 336 166 361L151 414Q165 428 186 425L204 372Z" fill="#FFF9EF"/>
+      <path d="M153 412L187 421L183 435L150 426Z" fill="#E9F2EA"/>
+      <path d="M153 428L148 462Q145 480 155 492Q166 503 178 494Q183 488 178 480L181 434Z" fill="#FFEAE0"/>
+      <path d="M162 481L161 489M170 481L170 490" fill="none" stroke="#D7AEA6" stroke-width="2"/>
+      <path d="M315 335Q333 332 344 351L365 376L348 401Q338 408 329 393L307 365Z" fill="#FFF9EF"/>
+      <path d="M347 366L370 377L361 393L340 381Z" fill="#E9F2EA"/>
+      <path d="M365 378Q383 357 391 331L397 303Q394 292 389 280Q386 273 390 269Q396 265 401 277L405 285L405 258Q405 249 411 249Q417 250 417 258L417 277L422 254Q424 247 430 249Q435 252 433 260L429 283L437 269Q441 263 446 267Q450 270 446 278L433 306Q427 318 419 322L414 342Q404 379 381 398Q370 407 360 393Z" fill="#FFEAE0"/>
+      <path d="M405 286Q418 286 423 299M410 308Q415 302 421 301" fill="none" stroke="#D7AEA6" stroke-width="2"/>
+    </g>
+    <g id="apron" stroke="#71475E" stroke-width="3">
+      <path d="M218 342L225 340L235 400L227 404Z" fill="#AFCFC8"/>
+      <path d="M291 341L299 344L286 404L278 400Z" fill="#AFCFC8"/>
+      <path d="M225 386Q256 394 287 386L289 447L316 553Q256 576 197 553L224 447Z" fill="#C4E0D9"/>
+      <path d="M219 449Q255 458 293 449L295 462Q255 471 216 462Z" fill="#A2C8BE"/>
+      <path d="M231 490Q256 497 281 490L278 519Q257 533 234 519Z" fill="#E8F4E9"/>
+      <path d="M239 502L239 511M272 502L272 511" fill="none" stroke="#B3CFC5" stroke-width="2"/>
+      <path d="M212 538Q257 552 302 538" fill="none" stroke="#9FC2B8" stroke-width="2"/>
+      <path d="M290 455Q312 445 320 457Q316 468 294 462Q309 477 300 484L287 463Z" fill="#DDF0E6"/>
+    </g>
+    <g id="face" stroke="#71475E" stroke-width="3">
+      <path d="M168 190Q176 128 252 128Q333 127 344 190L340 237Q334 294 257 314Q181 298 172 243Z" fill="#FFF0E6"/>
+      <path d="M175 212Q157 203 157 221Q159 244 177 246M338 212Q356 203 356 221Q354 244 336 246" fill="#FFE8DF"/>
+      <path d="M185 181Q188 154 214 145Q208 172 193 192Q230 177 243 148Q246 174 236 191Q267 181 278 149Q283 182 302 195L306 166Q320 185 339 193L349 177Q332 104 253 107Q176 106 162 181Z" fill="#F2A0BA"/>
+      <path d="M172 154Q192 114 232 116M292 119Q324 132 337 158" fill="none" stroke="#FFD6E0" stroke-width="8"/>
+      <path d="M196 210Q207 204 217 209M291 209Q304 204 315 210" fill="none" stroke="#9A6379" stroke-width="3"/>
+      <ellipse cx="210" cy="237" rx="13" ry="20" fill="#705569" stroke="none"/>
+      <ellipse cx="301" cy="237" rx="13" ry="20" fill="#705569" stroke="none"/>
+      <ellipse cx="211" cy="244" rx="8" ry="10" fill="#98BDB3" stroke="none"/>
+      <ellipse cx="302" cy="244" rx="8" ry="10" fill="#98BDB3" stroke="none"/>
+      <ellipse cx="206" cy="230" rx="4.5" ry="6" fill="#FFFFFF" stroke="none"/>
+      <ellipse cx="297" cy="230" rx="4.5" ry="6" fill="#FFFFFF" stroke="none"/>
+      <circle cx="215" cy="248" r="2.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="306" cy="248" r="2.5" fill="#FFFFFF" stroke="none"/>
+      <ellipse cx="188" cy="264" rx="13" ry="6" fill="#F4BCC4" stroke="none"/>
+      <ellipse cx="324" cy="264" rx="13" ry="6" fill="#F4BCC4" stroke="none"/>
+      <path d="M248 278Q256 285 264 278" fill="none" stroke-width="3"/>
+      <path d="M252 259L255 261" fill="none" stroke="#DEB3AB" stroke-width="2"/>
+      <path d="M326 174L342 166L350 182L334 190Z" fill="#C4E0D9" stroke-width="2"/>
+      <path d="M334 177L341 175" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
+

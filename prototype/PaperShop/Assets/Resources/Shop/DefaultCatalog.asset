@@ -1,0 +1,412 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c16b8263c901104b94eb88b76f43600, type: 3}
+  m_Name: DefaultCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::AnonTokyo.Shop.ShopCatalog
+  layoutDefinitionVersion: 4
+  entrancePrefab: {fileID: 6242070359153496624, guid: b591b409b20aba048be7e586af7c1716, type: 3}
+  facilities:
+  - id: top
+    title: "\u4E0A\u88C5\u67B6"
+    kind: 0
+    width: 1
+    depth: 1
+    capacity: 10
+    serviceOffset: {x: 0, y: -1}
+    color: {r: 0.79, g: 0.55, b: 0.62, a: 1}
+    modelPrefab: {fileID: 5808011130484866386, guid: a2da3f98fa3975b44b60ace5f11ee0a6, type: 3}
+  - id: shoes
+    title: "\u978B\u889C\u67B6"
+    kind: 0
+    width: 1
+    depth: 1
+    capacity: 10
+    serviceOffset: {x: 0, y: -1}
+    color: {r: 0.59, g: 0.68, b: 0.55, a: 1}
+    modelPrefab: {fileID: 6372101181660936048, guid: cfde93ed56baea2459c8506b08a05a71, type: 3}
+  - id: head
+    title: "\u5934\u9970\u67B6"
+    kind: 0
+    width: 1
+    depth: 1
+    capacity: 10
+    serviceOffset: {x: 0, y: -1}
+    color: {r: 0.87, g: 0.78, b: 0.62, a: 1}
+    modelPrefab: {fileID: 4594113802246461153, guid: 31018926697ff324eb894a2d31d54413, type: 3}
+  - id: bottom
+    title: "\u4E0B\u88C5\u67B6"
+    kind: 0
+    width: 2
+    depth: 1
+    capacity: 10
+    serviceOffset: {x: 0, y: -1}
+    color: {r: 0.58, g: 0.68, b: 0.74, a: 1}
+    modelPrefab: {fileID: 1317254128306842204, guid: 160cdb7864957504e9d9e0bc0ff15863, type: 3}
+  - id: checkout
+    title: "\u6536\u94F6\u53F0"
+    kind: 1
+    width: 1
+    depth: 1
+    capacity: 0
+    serviceOffset: {x: 0, y: -1}
+    color: {r: 0.69, g: 0.56, b: 0.56, a: 1}
+    modelPrefab: {fileID: 4441210499708242289, guid: 10c11a4cbd643bb4c89a1dcac86a1d0a, type: 3}
+  - id: warehouse
+    title: "\u53F3\u540E\u5899\u4ED3\u5E93"
+    kind: 2
+    width: 3
+    depth: 4
+    capacity: 200
+    serviceOffset: {x: -1, y: 3}
+    color: {r: 0.68, g: 0.67, b: 0.59, a: 1}
+    modelPrefab: {fileID: 8698495802802505331, guid: 575ff987dfc1331448af017592a0ffe9, type: 3}
+  - id: decor
+    title: "\u88C5\u9970\u9884\u7559\u4F4D"
+    kind: 3
+    width: 1
+    depth: 1
+    capacity: 0
+    serviceOffset: {x: 0, y: 0}
+    color: {r: 0.59, g: 0.68, b: 0.55, a: 1}
+    modelPrefab: {fileID: 0}
+  - id: stage
+    title: "MyGO!!!!! \u821E\u53F0"
+    kind: 4
+    width: 3
+    depth: 4
+    capacity: 0
+    serviceOffset: {x: 0, y: 0}
+    color: {r: 0.37, g: 0.48, b: 0.56, a: 1}
+    modelPrefab: {fileID: 3884786913856871566, guid: 26df563fb81130c48a775792518bad84, type: 3}
+  - id: fitting
+    title: "\u8BD5\u8863\u95F4"
+    kind: 3
+    width: 1
+    depth: 1
+    capacity: 0
+    serviceOffset: {x: 0, y: 0}
+    color: {r: 0.78, g: 0.72, b: 0.72, a: 1}
+    modelPrefab: {fileID: 0}
+  - id: reception
+    title: "\u63A5\u5F85\u70B9"
+    kind: 5
+    width: 1
+    depth: 1
+    capacity: 0
+    serviceOffset: {x: 0, y: 0}
+    color: {r: 0.48, g: 0.72, b: 0.57, a: 1}
+    modelPrefab: {fileID: 0}
+  - id: restock
+    title: "\u8865\u8D27\u5458\u5DE5\u70B9"
+    kind: 6
+    width: 1
+    depth: 1
+    capacity: 0
+    serviceOffset: {x: 0, y: 0}
+    color: {r: 0.76, g: 0.54, b: 0.64, a: 1}
+    modelPrefab: {fileID: 0}
+  - id: outfit
+    title: "\u5957\u88C5\u67B6"
+    kind: 0
+    width: 2
+    depth: 1
+    capacity: 10
+    serviceOffset: {x: 0, y: -1}
+    color: {r: 0.73, g: 0.63, b: 0.81, a: 1}
+    modelPrefab: {fileID: 5022269325847727230, guid: b626394393083de46aca4292df697814, type: 3}
+  - id: bag
+    title: "\u5305\u67B6"
+    kind: 0
+    width: 1
+    depth: 1
+    capacity: 10
+    serviceOffset: {x: 0, y: -1}
+    color: {r: 0.74, g: 0.61, b: 0.47, a: 1}
+    modelPrefab: {fileID: 6910149641817232456, guid: 32c5695b8270dd84796ef32e15b8d106, type: 3}
+  - id: accessory
+    title: "\u914D\u4EF6\u67B6"
+    kind: 0
+    width: 1
+    depth: 1
+    capacity: 10
+    serviceOffset: {x: 0, y: -1}
+    color: {r: 0.62, g: 0.74, b: 0.77, a: 1}
+    modelPrefab: {fileID: 5227715923684428316, guid: 5a662d5d6f4e7564bac598b872e57235, type: 3}
+  - id: stage_mujica
+    title: "Ave Mujica \u821E\u53F0"
+    kind: 4
+    width: 3
+    depth: 4
+    capacity: 0
+    serviceOffset: {x: 0, y: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    modelPrefab: {fileID: 3726147897403049137, guid: 58fbb9e8d6c09cd4b906b03849595db3, type: 3}
+  - id: decor_flamingo
+    title: "\u706B\u70C8\u9E1F\u6446\u4EF6"
+    kind: 3
+    width: 1
+    depth: 1
+    capacity: 0
+    serviceOffset: {x: 0, y: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    modelPrefab: {fileID: 5317246396751257606, guid: 993194d17704f4240b44c96e2cbd36ef, type: 3}
+  - id: decor_ottoman
+    title: "\u8F6F\u51F3"
+    kind: 3
+    width: 1
+    depth: 1
+    capacity: 0
+    serviceOffset: {x: 0, y: 0}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    modelPrefab: {fileID: 1401130536475396638, guid: faaa31f6d989e4c4ba5f1c47d2685d7a, type: 3}
+  products:
+  - id: top_tshirt
+    title: "AT\u5236\u670DAW[\u4E0A\u8863]"
+    category: top
+    buyPrice: 20
+    sellPrice: 36
+    batchSize: 5
+    modelPrefab: {fileID: 8609281734545906215, guid: 3f33ea733da078b4d957e1724f3b5af6, type: 3}
+    icon: {fileID: 2800000, guid: dd737e46b9c554f41be5ac45ec220405, type: 3}
+  - id: top_shirt
+    title: "\u6E05\u65B0\u886C\u886B"
+    category: top
+    buyPrice: 5
+    sellPrice: 10
+    batchSize: 20
+    modelPrefab: {fileID: 0}
+    icon: {fileID: 0}
+  - id: top_jacket
+    title: "\u8F7B\u4FBF\u5916\u5957"
+    category: top
+    buyPrice: 5
+    sellPrice: 10
+    batchSize: 20
+    modelPrefab: {fileID: 0}
+    icon: {fileID: 0}
+  - id: shoes_canvas
+    title: "AT\u5236\u670DAW[\u978B\u889C]"
+    category: shoes
+    buyPrice: 24
+    sellPrice: 44
+    batchSize: 5
+    modelPrefab: {fileID: 4634538696413981047, guid: 1ec95470d4c0e3343b044bdea152b361, type: 3}
+    icon: {fileID: 2800000, guid: 99bb1b4d19de7884698b2768ef9ddded, type: 3}
+  - id: shoes_loafers
+    title: "\u4E50\u798F\u978B"
+    category: shoes
+    buyPrice: 5
+    sellPrice: 10
+    batchSize: 20
+    modelPrefab: {fileID: 0}
+    icon: {fileID: 0}
+  - id: shoes_boots
+    title: "\u77ED\u9774"
+    category: shoes
+    buyPrice: 5
+    sellPrice: 10
+    batchSize: 20
+    modelPrefab: {fileID: 0}
+    icon: {fileID: 0}
+  - id: head_ribbon
+    title: "AT\u5236\u670DAW[\u5934\u9970]"
+    category: head
+    buyPrice: 16
+    sellPrice: 30
+    batchSize: 5
+    modelPrefab: {fileID: 3920146061896426874, guid: 512db1edc34ed894c97ab320265aedf4, type: 3}
+    icon: {fileID: 2800000, guid: 8892069840135db40b8ea57f9af98f89, type: 3}
+  - id: head_beret
+    title: "\u8D1D\u96F7\u5E3D"
+    category: head
+    buyPrice: 5
+    sellPrice: 10
+    batchSize: 20
+    modelPrefab: {fileID: 0}
+    icon: {fileID: 0}
+  - id: head_hairband
+    title: "\u7EC6\u8FB9\u53D1\u7B8D"
+    category: head
+    buyPrice: 5
+    sellPrice: 10
+    batchSize: 20
+    modelPrefab: {fileID: 0}
+    icon: {fileID: 0}
+  - id: bottom_skirt
+    title: "AT\u5236\u670DAW[\u4E0B\u88C5]"
+    category: bottom
+    buyPrice: 26
+    sellPrice: 46
+    batchSize: 5
+    modelPrefab: {fileID: 1283898054297989410, guid: 65f74d6070063324a9ac5bde73a0090c, type: 3}
+    icon: {fileID: 2800000, guid: 132b86df8e40d5e40a1634c8b67f701d, type: 3}
+  - id: bottom_shorts
+    title: "\u4F11\u95F2\u77ED\u88E4"
+    category: bottom
+    buyPrice: 5
+    sellPrice: 10
+    batchSize: 20
+    modelPrefab: {fileID: 0}
+    icon: {fileID: 0}
+  - id: bottom_trousers
+    title: "\u76F4\u7B52\u957F\u88E4"
+    category: bottom
+    buyPrice: 5
+    sellPrice: 10
+    batchSize: 20
+    modelPrefab: {fileID: 0}
+    icon: {fileID: 0}
+  - id: outfit_soyo
+    title: "\u723D\u4E16[\u65E5\u5E38\u5957\u88C5]"
+    category: outfit
+    buyPrice: 65
+    sellPrice: 110
+    batchSize: 5
+    modelPrefab: {fileID: 6607840138754808456, guid: 8cf9b7a63598c884380721671d7a3f96, type: 3}
+    icon: {fileID: 2800000, guid: 892001b659af96e4ba418dd7f2f926ca, type: 3}
+  - id: bag_basic
+    title: "\u57FA\u7840\u624B\u63D0\u5305"
+    category: bag
+    buyPrice: 36
+    sellPrice: 64
+    batchSize: 5
+    modelPrefab: {fileID: 5070669751947959673, guid: 6f4d30f26a5713146ae1626cfaf567e6, type: 3}
+    icon: {fileID: 2800000, guid: 356fe68df741ec24b943c2b52ca9e4cd, type: 3}
+  - id: accessory_necklace
+    title: "\u57FA\u7840\u9879\u94FE"
+    category: accessory
+    buyPrice: 30
+    sellPrice: 54
+    batchSize: 5
+    modelPrefab: {fileID: 4937099867128312009, guid: 75658f0db2dfb384da2fbeea33658f2d, type: 3}
+    icon: {fileID: 2800000, guid: 724bc4c14ba797744bae19c16e08e107, type: 3}
+  staff:
+  - id: anon
+    title: "\u5343\u65E9\u7231\u97F3"
+    role: "\u62DB\u5F85"
+    initiallyAvailable: 1
+    band: MyGO!!!!!
+    profile: "\u660E\u6717\u3001\u793E\u4EA4\u6027\u5F3A\uFF0C\u884C\u52A8\u529B\u63A8\u52A8\u4E50\u961F\u524D\u8FDB\u3002\u9879\u76EE\u5C06\u8FD9\u4E00\u503E\u5411\u7528\u4E8E\u62DB\u5F85\u3002"
+    sourceUrl: https://bang-dream.com/artist/mygo/chihaya-anon/
+    cashier: 65
+    restocking: 60
+    hospitality: 82
+    contractLevel: 1
+    contractCost: 0
+  - id: soyo
+    title: "\u957F\u5D0E\u723D\u4E16"
+    role: "\u62DB\u5F85"
+    initiallyAvailable: 1
+    band: MyGO!!!!!
+    profile: "\u5E38\u503E\u542C\u4ED6\u4EBA\u70E6\u607C\u3001\u7ED9\u4E88\u652F\u6301\u3002\u9879\u76EE\u5C06\u8FD9\u4E00\u503E\u5411\u7528\u4E8E\u62DB\u5F85\u3002"
+    sourceUrl: https://bang-dream.com/artist/mygo/nagasaki-soyo/
+    cashier: 72
+    restocking: 58
+    hospitality: 85
+    contractLevel: 1
+    contractCost: 0
+  - id: taki
+    title: "\u690E\u540D\u7ACB\u5E0C"
+    role: "\u6536\u94F6"
+    initiallyAvailable: 1
+    band: MyGO!!!!!
+    profile: "\u5728 RiNG \u6253\u5DE5\uFF0C\u7167\u987E\u4F19\u4F34\u4F46\u4E0D\u64C5\u63A5\u5BA2\u3002\u9879\u76EE\u504F\u5411\u6536\u94F6\u4E0E\u8865\u8D27\u3002"
+    sourceUrl: https://anime.bang-dream.com/avemujica/character/taki/
+    cashier: 85
+    restocking: 80
+    hospitality: 45
+    contractLevel: 1
+    contractCost: 0
+  - id: tomori
+    title: "\u9AD8\u677E\u706F"
+    role: "\u8865\u8D27"
+    initiallyAvailable: 1
+    band: MyGO!!!!!
+    profile: "\u611F\u6027\u72EC\u7279\uFF0C\u559C\u6B22\u6536\u96C6\u77F3\u5934\u3001\u53F6\u7247\u7B49\u7269\u4EF6\u3002\u9879\u76EE\u504F\u5411\u6574\u7406\u4E0E\u8865\u8D27\u3002"
+    sourceUrl: https://bang-dream.com/artist/mygo/takamatsu-tomori/
+    cashier: 62
+    restocking: 76
+    hospitality: 64
+    contractLevel: 1
+    contractCost: 0
+  - id: rana
+    title: "\u8981\u4E50\u5948"
+    role: "\u8865\u8D27"
+    initiallyAvailable: 1
+    band: MyGO!!!!!
+    profile: "\u5409\u4ED6\u6280\u827A\u51FA\u4F17\uFF0C\u884C\u52A8\u968F\u6027\u3001\u559C\u6076\u660E\u786E\u3002\u9879\u76EE\u7ED9\u4E88\u8F83\u9AD8\u8865\u8D27\u64CD\u4F5C\u6548\u7387\u3002"
+    sourceUrl: https://anime.bang-dream.com/bandorichan/character/mygo/
+    cashier: 55
+    restocking: 84
+    hospitality: 55
+    contractLevel: 1
+    contractCost: 0
+  - id: uika
+    title: "\u4E09\u89D2\u521D\u534E"
+    role: "\u62DB\u5F85"
+    initiallyAvailable: 0
+    band: Ave Mujica
+    profile: "\u517C\u4EFB\u5076\u50CF\u4E0E\u4E3B\u5531\u3001\u8D1F\u8D23\u4F5C\u8BCD\u3002\u9879\u76EE\u5C06\u821E\u53F0\u4EA4\u6D41\u7ECF\u9A8C\u8F6C\u4E3A\u62DB\u5F85\u503E\u5411\u3002"
+    sourceUrl: https://anime.bang-dream.com/avemujica/character/uika/
+    cashier: 86
+    restocking: 78
+    hospitality: 96
+    contractLevel: 3
+    contractCost: 900
+  - id: mutsumi
+    title: "\u82E5\u53F6\u7766"
+    role: "\u8865\u8D27"
+    initiallyAvailable: 0
+    band: Ave Mujica
+    profile: "\u53E3\u62D9\u4F46\u5173\u5FC3\u4ED6\u4EBA\uFF0C\u81EA\u5E7C\u7EC3\u4E60\u5409\u4ED6\u3002\u9879\u76EE\u504F\u5411\u5B89\u9759\u3001\u7CBE\u7EC6\u7684\u8865\u8D27\u5DE5\u4F5C\u3002"
+    sourceUrl: https://anime.bang-dream.com/avemujica/character/mutsumi/
+    cashier: 80
+    restocking: 94
+    hospitality: 65
+    contractLevel: 2
+    contractCost: 600
+  - id: umiri
+    title: "\u516B\u5E61\u6D77\u94C3"
+    role: "\u8865\u8D27"
+    initiallyAvailable: 0
+    band: Ave Mujica
+    profile: "\u53C2\u4E0E\u591A\u652F\u4E50\u961F\u652F\u63F4\uFF0C\u8D1F\u8D23\u65E5\u7A0B\u7B49\u5E55\u540E\u534F\u8C03\u3002\u9879\u76EE\u504F\u5411\u8865\u8D27\u4E0E\u6536\u94F6\u6548\u7387\u3002"
+    sourceUrl: https://anime.bang-dream.com/avemujica/character/umiri/
+    cashier: 90
+    restocking: 98
+    hospitality: 72
+    contractLevel: 2
+    contractCost: 500
+  - id: nyamu
+    title: "\u7950\u5929\u5BFA\u82E5\u9EA6"
+    role: "\u62DB\u5F85"
+    initiallyAvailable: 0
+    band: Ave Mujica
+    profile: "\u4EE5\u7F8E\u5BB9\u89C6\u9891\u4E3A\u4E3B\u5E76\u6311\u6218\u4E0D\u540C\u9886\u57DF\uFF0C\u5B66\u4E60\u8868\u6F14\u3002\u9879\u76EE\u504F\u5411\u62DB\u5F85\u4E0E\u5546\u54C1\u63A8\u8350\u3002"
+    sourceUrl: https://anime.bang-dream.com/avemujica/character/nyamu/
+    cashier: 78
+    restocking: 80
+    hospitality: 98
+    contractLevel: 3
+    contractCost: 800
+  - id: sakiko
+    title: "\u4E30\u5DDD\u7965\u5B50"
+    role: "\u6536\u94F6"
+    initiallyAvailable: 0
+    band: Ave Mujica
+    profile: "\u521B\u5EFA\u4E50\u961F\uFF0C\u91CD\u89C6\u821E\u53F0\u4E16\u754C\u89C2\u3001\u8A00\u8C08\u6709\u793C\u3002\u9879\u76EE\u504F\u5411\u6536\u94F6\u7EC4\u7EC7\u4E0E\u62DB\u5F85\u3002"
+    sourceUrl: https://anime.bang-dream.com/avemujica/character/sakiko/
+    cashier: 98
+    restocking: 82
+    hospitality: 90
+    contractLevel: 4
+    contractCost: 1200
